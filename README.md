@@ -304,16 +304,17 @@ Through manual evaluation, the results generated after prompt extension are supe
 
 
 ##### (2) Image-to-Video Evaluation
+black jaguar
+
 
 We also conducted extensive manual evaluations to evaluate the performance of the Image-to-Video model, and the results are presented in the table below. The results clearly indicate that **Wan2.1** outperforms both closed-source and open-source models.
-
-<div align="center">
-    <img src="assets/i2v_res.png" alt="" style="width: 80%;" />
+rc="assets/i2v_res.png" alt="" style="width: 80%;" />
 </div>
+<div align="center">
+    <img s
 
 
-## Computational Efficiency on Different GPUs
-
+## Computational Efficiency on Different GPfewwef
 We test the computational efficiency of different **Wan2.1** models on different GPUs in the following table. The results are presented in the format: **Total time (s) / peak GPU memory (GB)**.
 
 
@@ -373,7 +374,8 @@ We curated and deduplicated a candidate dataset comprising a vast amount of imag
 
 
 ##### Comparisons to SOTA
-We compared **Wan2.1** with leading open-source and closed-source models to evaluate the performance. Using our carefully designed set of 1,035 internal prompts, we tested across 14 major dimensions and 26 sub-dimensions. We then compute the total score by performing a weighted calculation on the scores of each dimension, utilizing weights derived from human preferences in the matching process. The detailed results are shown in the table below. These results demonstrate our model's superior performance compared to both open-source and closed-source models.
+We compared **Wan2.1** with leading open-source and closed-source models to evaluate the performance. Using our carefully designed set of 1,035 internal prompts, we tested across 14 major dimensions and 26 sub-dimensions. We then compute the total score by performing a weighted calculation on the scores of each dimension, utilizing weights derived from human p![1d61ded5-394b-4195-8231-d082a6be8ac7](https://github.com/user-attachments/assets/3414bb68-6175-42dc-9db2-43d3f42c6d7b)
+references in the matching process. The detailed results are shown in the table below. These results demonstrate our model's superior performance compared to both open-source and closed-source models.
 
 ![figure1](assets/vben_vs_sota.png "figure1")
 
